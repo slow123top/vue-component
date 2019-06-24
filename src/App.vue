@@ -1,17 +1,17 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+   <Banner>一个广告</Banner>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Banner from 'hyy-banner'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Banner
   }
 }
 </script>

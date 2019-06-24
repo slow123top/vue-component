@@ -1,0 +1,11 @@
+{
+  "name": "@vyui/banner",
+  "version": "0.0.1",
+  "main": "dist/@vyui/banner/banner.umd.min.js",
+  "private": false,
+  "author": "huyuyang",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC"
+}

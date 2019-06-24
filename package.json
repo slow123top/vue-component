@@ -1,15 +1,21 @@
 {
-  "name": "vy-component3",
-  "version": "0.1.0",
-  "private": true,
+  "name": "@vyui/banner",
+  "version": "0.0.2",
+  "main": "dist/banner.umd.min.js",
+  "private": false,
+  "license": "MIT",
+  "author": "huyuyang",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build-bundle": "vue-cli-service build --target lib --name banner --dest dist/@vyui/banner/dist ./src/components/index.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^2.6.5",
+    "hyy-banner": "0.0.1",
     "vue": "^2.6.10"
+
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.8.0",
